@@ -1,0 +1,64 @@
+@import "../style/mixin.scss";
+@import "../style/variable.scss";
+
+$sans: "Source Sans Pro", Helvetica, Arial, sans-serif;
+
+#headBox {
+  float: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 100vh;
+  color: #fff;
+  background-color: $color_primary_01;
+}
+h1 {
+  width: 100%;
+  height: 40px;
+  margin: 40px 0px;
+  font-size: 36px;
+  text-align: center;
+  a {
+    text-decoration: none;
+  }
+}
+
+.main_nav {
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-color: #fdf;
+  }
+
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 70px;
+    padding: 10px;
+    line-height: 50px;
+    margin-bottom: 10px;
+
+    background-color: $color_white;
+  }
+
+  a {
+    display: block;
+    color: $color_deep_gray_01;
+    font: 400 1.2rem $sans;
+
+    text: {
+      align: center;
+    }
+
+    &:hover {
+      color: #ddd;
+    }
+  }
+}

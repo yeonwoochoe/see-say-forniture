@@ -1,0 +1,26 @@
+@import "../style/mixin.scss";
+@import "../style/variable.scss";
+#contentsBox {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  width: calc(100% - 280px);
+  height: 100vh;
+  padding: 30px;
+  background: $color_gradient_bg;
+  box-shadow: 0 2px 30px rgba(255, 146, 146, 0.26);
+}
+
+// #BestBox {
+//   width: calc((100% - 300px) / 1);
+//   margin-right: 80px;
+//   height: auto;
+//   background-color: $color_primary_03;
+// }
+// #oderBox {
+//   width: 400px;
+//   height: auto;
+//   background-color: $color_primary_02;
+// }

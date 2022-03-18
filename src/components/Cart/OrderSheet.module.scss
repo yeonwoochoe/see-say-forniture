@@ -1,0 +1,8 @@
+@import "../../style/variable.scss";
+@import "../../style/mixin.scss";
+#orderSheetBox {
+  width: 340px;
+  height: auto;
+  border-radius: 40px;
+  background-color: $color_primary_03;
+}
